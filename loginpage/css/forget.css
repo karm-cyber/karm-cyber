@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.imgbox{
+    width: 70%;
+    height: 100vh;
+    float: left;
+   
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.Loginpage{
+    width: 30%;
+    height: 100vh;
+    float: left;
+}
+.Loginpage .box1{
+    height: 70%;
+    width: 100%;
+   
+    margin-top: 30%;
+}
+.Loginpage .box1 .img1{
+    width: 50%;
+    height: 30vh;
+}
+.Loginpage .box1 .img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.Loginpage .box1 .text{
+    width: 90%;
+    height: 40vh;
+    margin: auto;
+}
+.Loginpage .box1 .text input{
+    width: 100%;
+    height: 6vh;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    outline:none;
+   
+}
+.Loginpage .box1 .text h6{
+    text-align: right;
+    color: black;
+    padding-right: 10px;
+}
+.Loginpage .box1 .text a{
+    color: black;
+}
+.Loginpage .box1 .text button{
+    width: 100%;
+    padding: 5px;
+    border: 0.7px solid rgb(63, 63, 63);
+    color: white;
+    background-color: rgb(109, 216, 216);
+}
+.Loginpage .box1 .text span{
+  padding-bottom: 20px;
+}
+
+@media(max-width:600px){
+   .imgbox{
+    width: 0px;
+    height: 0px;
+   }
+   .Loginpage{
+    width: 100%;
+   }
+}
+    
